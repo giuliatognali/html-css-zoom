@@ -1,0 +1,45 @@
+/* 
+***************
+Reset
+***************
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+***************
+Header
+***************
+ */
+header{
+    height: 30px;
+    background-color: aquamarine;
+}
+
+
+/* 
+***************
+Main
+***************
+ */
+
+main{
+    height: calc(100vh - 110px);
+    background-color: bisque;
+
+}
+
+ /* 
+***************
+Footer
+***************
+ */
+footer{
+    height: 80px;
+    background-color: #222222;
+
+
+}

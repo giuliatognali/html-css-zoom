@@ -18,7 +18,14 @@ body{
     color: white;
 }
 
-
+/* 
+***************
+Common
+***************
+ */
+ .row{
+    display: flex;
+}
 
 
 /* 
@@ -32,7 +39,7 @@ header{
 }
 
 .top-icons{
-    display: flex;
+
     justify-content: end;
 }
 header .top-icons span{
@@ -53,7 +60,26 @@ Main
 main{
     height: calc(100vh - 110px);
     background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+main .container{
+    width: 95vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px 10px;
+}
+main .container .monitor{
+    display: flex;
+    height: 150px;
+    width: 250px;
+/*     background-color: coral;
+ */    border: 1px solid black;
 
+}
+main .container .monitor img{
+    width: 100%;
+    display: inline-block;
 }
 
  /* 

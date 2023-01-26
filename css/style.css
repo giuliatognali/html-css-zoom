@@ -101,15 +101,18 @@ footer{
     background-color: #222222;
     display: flex;
     align-items: center;
-}
+/*     justify-content: space-around;
+ */}
 
 footer .container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
-footer .icon-left{
+/* footer .icon-left{
     vertical-align: middle;
-}
+} */
 
 footer .row .icon,
 footer .container .arrow{
@@ -119,8 +122,19 @@ footer .container .arrow{
 
 footer .container .icon i{
     font-size: 25px;
+    padding-bottom: 5px;
 
 }
 footer .container .arrow i{
     font-size: 10px;
+
+}
+footer .icons-center{
+    justify-content: center;
+}
+
+footer .icons-left,
+footer .icons-center,
+footer .icon-endcall{
+    width: 30%;
 }

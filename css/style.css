@@ -14,7 +14,7 @@ Font
 ***************
  */
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
     color: white;
 }
 footer .icon .h5{
@@ -76,14 +76,13 @@ main .container{
 }
 main .container .monitor{
     display: flex;
-    height: 150px;
-    width: 250px;
+    width: calc(100% / 7 - 10px);
     position: relative;
 
 }
 main .container .monitor img{
     width: 100%;
-    display: inline-block;
+    display: block;
 
 }
 .username{
@@ -112,9 +111,7 @@ footer .container{
     justify-content: space-between;
     width: 100%;
 }
-/* footer .icon-left{
-    vertical-align: middle;
-} */
+
 
 footer .row .icon,
 footer .container .arrow{
@@ -136,12 +133,11 @@ footer .icons-center{
 }
 
 footer .icons-left,
-/* footer .icons-center,
- */footer .icon-endcall{
-    width: 30%;
+footer .icon-endcall{
+    width: 15%;
 }
 footer .icon-endcall{
-    justify-content:right;
+    justify-content:flex-end;
     align-items: center;
     height: 80px;
 }
@@ -153,4 +149,7 @@ footer .icon-endcall h5{
     align-items: center;
     padding: 0 10px;
     color: red;
+}
+footer .container .icons-center .green i{
+    color:#4bc800;
 }
